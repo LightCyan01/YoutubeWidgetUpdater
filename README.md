@@ -7,7 +7,7 @@ Based on [ItsDenji777/SteamWidgetUpdater](https://github.com/ItsDenji777/SteamWi
 ## Setup
 
 1. Fork this repository.
-2. Import `youtube_widget.json` with your Discord widget import tool or If you're new, use this tutorial: https://hub.tcno.co/discord/widgets/
+2. Import `youtube_widget.json` with [Discord Widget Configurator](https://chromewebstore.google.com/detail/discord-widget-configurat/abfniekbmcdlonmgjnnhifdpjepkgngb) or your own. If you need help head over to [Discord Previews](https://discord.gg/discord-603970300668805120)
 4. Add these [GitHub Actions secrets](https://docs.github.com/actions/security-guides/using-secrets-in-github-actions):
 
 | Secret | Value | Where |
@@ -23,9 +23,3 @@ Based on [ItsDenji777/SteamWidgetUpdater](https://github.com/ItsDenji777/SteamWi
 The workflow runs daily at midnight UTC and can also be started from:
 
 `Actions -> Update YouTube Widget -> Run workflow`
-
-Local check:
-
-```bash
-node youtube-widget.js --self-test
-```
