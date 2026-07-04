@@ -1,0 +1,174 @@
+{
+  "_type": "discord-widget",
+  "version": 2,
+  "display_name": "Youtube",
+  "surfaces": {
+    "widget_bottom": {
+      "layout": "widget_bottom_stats",
+      "components": {
+        "stat_5": {
+          "fields": {
+            "value": {
+              "value_type": "data",
+              "presentation_type": "text",
+              "value": "country"
+            },
+            "label": {
+              "value_type": "custom_string",
+              "presentation_type": "text",
+              "value": "Country"
+            }
+          }
+        },
+        "stat_1": {
+          "fields": {
+            "value": {
+              "value_type": "data",
+              "presentation_type": "text",
+              "value": "username"
+            },
+            "label": {
+              "value_type": "custom_string",
+              "presentation_type": "text",
+              "value": "Username"
+            }
+          }
+        },
+        "stat_3": {
+          "fields": {
+            "value": {
+              "value_type": "data",
+              "presentation_type": "text",
+              "value": "total_videos"
+            },
+            "label": {
+              "value_type": "custom_string",
+              "presentation_type": "text",
+              "value": "Total Videos"
+            }
+          }
+        },
+        "stat_2": {
+          "fields": {
+            "value": {
+              "value_type": "data",
+              "presentation_type": "number",
+              "value": "subscribers"
+            },
+            "label": {
+              "value_type": "custom_string",
+              "presentation_type": "text",
+              "value": "Subscribers"
+            }
+          }
+        },
+        "stat_6": {
+          "fields": {
+            "value": {
+              "value_type": "data",
+              "presentation_type": "text",
+              "value": "join_date"
+            },
+            "label": {
+              "value_type": "custom_string",
+              "presentation_type": "text",
+              "value": "Join Date"
+            }
+          }
+        },
+        "stat_4": {
+          "fields": {
+            "value": {
+              "value_type": "data",
+              "presentation_type": "text",
+              "value": "total_views"
+            },
+            "label": {
+              "value_type": "custom_string",
+              "presentation_type": "text",
+              "value": "Total Views"
+            }
+          }
+        }
+      }
+    },
+    "mini_profile": {
+      "layout": "mini_profile_contained_stat",
+      "components": {
+        "stat": {
+          "fields": {
+            "text": {
+              "value_type": "data",
+              "presentation_type": "text",
+              "value": "display_name"
+            }
+          }
+        },
+        "contained_image": {
+          "fields": {
+            "image": {
+              "value_type": "data",
+              "presentation_type": "image",
+              "value": "profile_picture"
+            }
+          }
+        }
+      }
+    },
+    "widget_top": {
+      "layout": "widget_top_contained",
+      "components": {
+        "title": {
+          "fields": {
+            "text": {
+              "value_type": "data",
+              "presentation_type": "text",
+              "value": "display_name"
+            }
+          }
+        },
+        "subtitle_1": {
+          "fields": {
+            "text": {
+              "value_type": "data",
+              "presentation_type": "text",
+              "value": "description_1"
+            }
+          }
+        },
+        "subtitle_2": {
+          "fields": {
+            "text": {
+              "value_type": "data",
+              "presentation_type": "text",
+              "value": "description_2"
+            }
+          }
+        },
+        "contained_image": {
+          "fields": {
+            "image": {
+              "value_type": "data",
+              "presentation_type": "image",
+              "value": "profile_picture"
+            }
+          }
+        }
+      }
+    },
+    "add_widget_preview": {
+      "layout": "add_widget_preview_contained",
+      "components": {
+        "contained_image": {
+          "fields": {
+            "image": {
+              "value_type": "data",
+              "presentation_type": "image",
+              "value": "profile_picture"
+            }
+          }
+        }
+      }
+    }
+  }
+}
